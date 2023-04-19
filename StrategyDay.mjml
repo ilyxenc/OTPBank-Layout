@@ -1,12 +1,17 @@
 <mjml>
   <mj-head>
+    <mj-style>
+      .body {
+        min-width: 600px;
+      }
+    </mj-style>
     <mj-title>Strategy Day ОТПБанк</mj-title>
     <mj-attributes>
       <mj-all font-family="Roboto, Helvetica, Arial, sans-serif" padding="0px"></mj-all>
       <mj-text font-weight="400" font-size="16px" color="#1E126A" line-height="24px"></mj-text>
     </mj-attributes>
   </mj-head>
-  <mj-body background-color="#0C0635">
+  <mj-body background-color="#0C0635" width="600px" css-class="body">
     <mj-section padding="0 0 0 0">
       <mj-column>
         <mj-image src="https://raw.githubusercontent.com/ilyxenc/OTPBank-Layout/main/images/logo.png" alt="" align="center" border="none" padding="0px" width="600px"></mj-image>
@@ -32,9 +37,9 @@
         </mj-text>
       </mj-column>
     </mj-section>
-    <mj-section padding="0px 40px 18px 60px">
+    <mj-section padding="0px 40px 0 60px">
       <mj-column width="106px">
-        <mj-image src="https://raw.githubusercontent.com/ilyxenc/OTPBank-Layout/main/images/num-1.png" alt="" align="center" border="none" padding="0px 56px 0 0" width="50px"></mj-image>
+        <mj-image src="https://raw.githubusercontent.com/ilyxenc/OTPBank-Layout/main/images/num-1.png" alt="" align="center" border="none" padding="0 56px 5px 0" width="50px"></mj-image>
       </mj-column>
       <mj-column width="394px">
         <mj-text color="#FFFFFF">
@@ -42,9 +47,27 @@
         </mj-text>
       </mj-column>
     </mj-section>
+    <mj-section padding="15px 40px 0 60px">
+      <mj-column width="106px">
+        <mj-image src="https://raw.githubusercontent.com/ilyxenc/OTPBank-Layout/main/images/num-2.png" alt="" align="center" border="none" padding="0 56px 5px 0" width="50px"></mj-image>
+      </mj-column>
+      <mj-column width="394px">
+        <mj-text color="#FFFFFF">
+          Открой приложение, введи кодовое слово <span style="color:#1EDD7B;">«STRATEGY»</span> и выбери <span style="color:#1EDD7B;">Strategy Day</span>. Заполни информацию о себе: фамилию, имя, подразделение, корпоративную почту, номер телефона. И добавь, пожалуйста, свои интересы, чтобы мы могли лучше тебя узнать.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="15px 40px 18px 60px">
+      <mj-column width="106px">
+        <mj-image src="https://raw.githubusercontent.com/ilyxenc/OTPBank-Layout/main/images/num-3.png" alt="" align="center" border="none" padding="0 56px 5px 0" width="50px"></mj-image>
+      </mj-column>
+      <mj-column width="394px">
+        <mj-text color="#FFFFFF">
+          На указанный номер телефона тебе придет сообщение с кодом. Введи код в приложение для завершения авторизации.
+        </mj-text>
+      </mj-column>
+    </mj-section>
 
-    <!-- Открой приложение, введи кодовое слово «STRATEGY» и выбери Strategy Day. Заполни информацию о себе: фамилию, имя, подразделение, корпоративную почту, номер телефона. И добавь, пожалуйста, свои интересы, чтобы мы могли лучше тебя узнать.
-На указанный номер телефона тебе придет сообщение с кодом. Введи код в приложение для завершения авторизации. -->
     <mj-section padding="0 0 0 0">
       <mj-column>
         <mj-image src="https://raw.githubusercontent.com/ilyxenc/OTPBank-Layout/main/images/address.png" alt="" align="center" border="none" padding="0px" width="600px"></mj-image>
